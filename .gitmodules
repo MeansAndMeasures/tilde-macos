@@ -1,0 +1,32 @@
+[submodule "deps/makesys"]
+	path = deps/makesys
+	url = https://github.com/MeansAndMeasures/makesys.git
+	branch = prime
+[submodule "deps/transcript"]
+	path = deps/transcript
+	url = https://github.com/MeansAndMeasures/transcript.git
+	branch = prime
+[submodule "deps/t3shared"]
+	path = deps/t3shared
+	url = https://github.com/MeansAndMeasures/t3shared.git
+	branch = prime
+[submodule "deps/t3window"]
+	path = deps/t3window
+	url = https://github.com/MeansAndMeasures/t3window.git
+	branch = prime
+[submodule "deps/t3widget"]
+	path = deps/t3widget
+	url = https://github.com/MeansAndMeasures/t3widget.git
+	branch = prime
+[submodule "deps/t3key"]
+	path = deps/t3key
+	url = https://github.com/MeansAndMeasures/t3key.git
+	branch = prime
+[submodule "deps/t3config"]
+	path = deps/t3config
+	url = https://github.com/MeansAndMeasures/t3config.git
+	branch = prime
+[submodule "deps/t3highlight"]
+	path = deps/t3highlight
+	url = https://github.com/MeansAndMeasures/t3highlight.git
+	branch = prime

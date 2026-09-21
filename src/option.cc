@@ -24,6 +24,7 @@
 #include "tilde/optionMacros.h"
 #include "tilde/option_access.h"
 #include "tilde/util.h"
+#include "tilde/version.h"
 
 using namespace t3widget;
 
@@ -172,15 +173,19 @@ static void print_help() {
 
 static void print_version() {
   printf(
-      "Tilde version <VERSION>\n"
-      "Copyright (c) 2011-2018 G.P. Halkes\n"  // @copyright
-      "Tilde is licensed under the GNU General Public License version 3\n");
+      "Tilde for macOS " TILDE_VERSION "\n"
+      "A modernized macOS distribution of the Tilde text editor.\n"
+      "Cross-terminal compatible. M-series optimized.\n\n"
+      "Copyright (C) 2026 Means+Measures\n"
+      "Based on the groundbreaking work of G.P. Halkes, creator of Tilde and the T3 libraries.\n"
+      "Original work Copyright (C) G.P. Halkes and respective contributors.\n"
+      "Licensed under the GNU General Public License v3.\n\n");
   printf(
       "Library versions:\n"
       "  libt3config %ld.%ld.%ld\n  libt3highlight %ld.%ld.%ld\n  libt3key (through libt3widget) "
       "%ld.%ld.%ld\n"
       "  libt3widget %ld.%ld.%ld\n  libt3window %ld.%ld.%ld\n  libtranscript %ld.%ld.%ld\n  "
-      "libunistring %d.%d.?\n",
+      "libunistring %d.%d.%d\n",
       t3_config_get_version() >> 16, (t3_config_get_version() >> 8) & 0xff,
       t3_config_get_version() & 0xff, t3_highlight_get_version() >> 16,
       (t3_highlight_get_version() >> 8) & 0xff, t3_highlight_get_version() & 0xff,
@@ -190,7 +195,8 @@ static void print_version() {
       t3_window_get_version() >> 16, (t3_window_get_version() >> 8) & 0xff,
       t3_window_get_version() & 0xff, transcript_get_version() >> 16,
       (transcript_get_version() >> 8) & 0xff, transcript_get_version() & 0xff,
-      _libunistring_version >> 8, _libunistring_version & 0xff);
+      _libunistring_version >> 16, (_libunistring_version >> 8) & 0xff,
+      _libunistring_version & 0xff);
   // FIXME: add libpcre and libsigc++ versions (from libt3widget)
   exit(EXIT_SUCCESS);
 }

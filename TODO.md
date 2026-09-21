@@ -1,0 +1,337 @@
+- Layer 0: finish and close the build foundation
+  - Decide the canonical minimum supported macOS/deployment target.
+  - Decide how the ARM64-only requirement is enforced beyond Meson’s observed aarch64 host detection.
+  - Decide whether native builds are the only supported Meson configuration or whether cross/native-file configurations have any supported role.
+  - Decide minimum supported versions for Meson, Ninja, Apple Clang/Xcode, and other required build tools.
+  - Decide the canonical SDK/toolchain discovery policy.
+  - Decide whether any compiler/linker arguments beyond the current C23/C++23 defaults belong in the project-wide baseline.
+  - Decide the warning policy: Meson warning level, project-specific warnings, and whether/where werror is appropriate.
+  - Inventory old unconditional debug defines such as TRANSCRIPT_DEBUG, _T3_WIDGET_DEBUG, and TILDE_DEBUG.
+  - Decide how debug/release build types control those defines.
+  - Decide development vs release optimization policy.
+  - Decide release LTO/ThinLTO policy.
+  - Decide release stripping policy.
+  - Decide sanitizer support/policy.
+  - Decide default_library policy: shared/static/both, including implications for Homebrew and the DMG.
+  - Decide project-wide symbol visibility policy.
+  - Decide project-wide threading flag handling.
+  - Decide the canonical Mach-O undefined-symbol policy.
+  - Verify what Meson actually passes to ld64 for b_lundef=true; explicitly ensure GNU --no-undefined never reappears.
+  - Decide whether b_asneeded has useful/appropriate Darwin semantics for this build.
+  - Decide the project-wide dylib install-name model.
+  - Decide the project-wide @rpath model.
+  - Decide build-tree RPATH behavior.
+  - Decide install-tree RPATH behavior.
+  - Establish the requirement that correct install names/RPATHs are emitted at link time rather than repaired later.
+  - Determine whether -Wl,-not_for_dyld_shared_cache remains necessary with the Meson/ld64 build.
+  - Determine whether any equivalent of the old headerpad_max_install_names behavior remains necessary.
+  - Decide Homebrew-prefix handling. /opt/homebrew is currently a successful probe, not yet a canonical abstraction.
+  - Decide how non-pkg-config Homebrew dependencies expose include and library directories to Meson.
+  - Decide whether that configuration belongs in project options, Meson native files, environment supplied by Homebrew, another Meson mechanism, or some combination.
+  - Remove any temporary machine-specific path assumptions once the above is settled.
+  - Confirm canonical PCRE2 discovery.
+  - Confirm canonical ncurses/ncursesw discovery and decide which interface/library the project actually targets.
+  - Confirm canonical libunistring discovery.
+  - Confirm canonical libintl/gettext discovery.
+  - Determine whether gettext introduces any additional compile-time or runtime paths that belong in Layer 0.
+  - Inventory all remaining external libraries/tools referenced anywhere downstream so Layer 0 does not later discover a missing prerequisite.
+  - Inventory all HAS_*, platform-condition, feature-detection, and configuration macros used across the entire corpus.
+  - Decide which become fixed Darwin facts, which still require capability checks, and which disappear.
+  - Decide the canonical Flex tool/version.
+  - Determine whether /usr/bin/flex is sufficient or whether another Flex installation is required.
+  - Decide how Flex generation is represented in Meson.
+  - Decide the canonical LLnextgen tool/version.
+  - Inspect /usr/local/bin/LLnextgen provenance, architecture, runtime dependencies, and version.
+  - Confirm LLnextgen itself introduces no x86/Rosetta dependency.
+  - Decide how .g and .gg generation is represented in Meson.
+  - Decide generator output-directory conventions.
+  - Decide generated-header dependency conventions.
+  - Decide how generated outputs are declared so Ninja understands every dependency rather than relying on incidental ordering.
+  - Decide handling of data2bytes, now identified as a tracked POSIX shell generator in t3config.
+  - Inspect data2bytes itself for shell/tool dependencies relevant to a clean Darwin build.
+  - Decide whether it remains as-is, is modernized, or is otherwise represented by Meson.
+  - Inventory every downstream .schema → .bytes generation use.
+  - Decide whether one common Meson pattern/helper represents all schema-byte generation or whether any uses materially differ.
+  - Resolve statrie provenance.
+  - Locate its original source/history if available.
+  - Determine every place where statrie is required.
+  - Determine which statrie outputs are currently pregenerated/checked in.
+  - Decide whether full source regeneration is a requirement of the canonical build.
+  - Decide whether statrie belongs in the constituent-fork/submodule graph.
+  - If it becomes a constituent dependency, establish its repository/fork/branch/submodule arrangement later through the same serialized Git process.
+  - Inventory t3window Unicode/chardata regeneration, including generate_chardata.py, statrie, and its Unicode data inputs.
+  - Determine provenance/versioning of those Unicode inputs.
+  - Decide whether Unicode/chardata regeneration belongs to normal builds, source-release generation, or another explicitly supported workflow.
+  - Inventory Transcript converter/table generation completely, including generate_ltc.sh, ucm2ltc, linkltc, module/table generation, and pregenerated material.
+  - Inventory t3key database generation/linking completely, including t3keyc, updatedblinks, and generated database artifacts.
+  - Inventory t3highlight generation completely, including its schemas and utility-side generated bytes.
+  - Inventory t3config parser/lexer/header generation completely, including lex_hide.h.
+  - Inspect the existing lex_hide.h generation pipeline’s reliance on shell utilities such as egrep, GNU/BSD sed behavior, and echo -e.
+  - Decide how that generation is represented cleanly under the new build.
+  - Inventory t3shared for functionality that exists beyond old Make orchestration.
+  - Inventory makesys for generation/configuration behavior that downstream components implicitly rely on.
+  - Separate actual reusable build primitives from historical Make implementation details.
+  - Decide which shared generation/configuration behaviors belong conceptually in Layer 0.
+  - Decide the long-term role of makesys once Meson reaches parity.
+  - Decide the long-term role of existing component Makefiles once Meson reaches parity.
+  - Decide canonical build-directory layout.
+  - Decide canonical clean-build semantics.
+  - Decide install-prefix semantics without embedding Homebrew’s local prefix into project identity.
+  - Decide how build-time paths and install-time paths are represented distinctly.
+  - Decide project-wide Meson option structure, if any.
+  - Decide whether a meson_options.txt/meson.options file is warranted and what belongs there.
+  - Decide which configuration belongs in root meson.build versus other Meson files.
+  - Decide whether the current provisional project version 0.1.0 remains appropriate or should not be established until the real distribution version/tidemark is chosen.
+  - Decide how Meson receives and propagates the eventual canonical distribution version.
+  - Perform a clean Layer-0 configuration from a fresh build directory after all Layer-0 decisions are implemented.
+  - Inspect resulting Meson configuration.
+  - Inspect compiler/tool identities.
+  - Inspect dependency identities and paths.
+  - Inspect generated Ninja rules relevant to Layer-0 primitives.
+  - Verify no x86_64/Rosetta assumptions or artifacts.
+  - Verify no GNU/ELF linker syntax.
+  - Verify no unintended hard-coded local paths.
+  - Record Layer-0 validation evidence.
+  - Close Layer 0. Do not descend until this is genuinely complete.
+- Layer 1: foundations, treated as one dependency stratum
+  - Map every Layer-1 target precisely before implementation.
+  - Confirm the complete role of t3shared in this stratum after Layer-0 inventory.
+  - Model the t3config library and its generated sources in Meson.
+  - Model the t3config public/private include surface.
+  - Model its generated parser and lexer.
+  - Model its generated API/error/shared headers/sources where applicable.
+  - Model meta_schema.bytes and other schema-byte dependencies.
+  - Model libintl/gettext and math linkage.
+  - Model relevant t3config utility/build-time targets.
+  - Model the Transcript library in Meson.
+  - Model Transcript modules: ascii, unicode, iso2022, euctw.
+  - Model Transcript table modules.
+  - Model pregenerated vs regenerated generic fallbacks according to the Layer-0 decision.
+  - Model Transcript build-time utility targets required by the supported build.
+  - Model converter-link generation according to the decided source-regeneration policy.
+  - Replace Linux LD_LIBRARY_PATH assumptions in supported Darwin workflows.
+  - Decide and implement Darwin dynamic-module suffix/install-name/loading behavior for Transcript .ltc modules.
+  - Resolve -ldl usage for Transcript under macOS.
+  - Define Layer-1 Meson dependency objects for downstream consumption rather than manually propagating -L/-l strings.
+  - Port relevant Layer-1 tests into Meson’s test graph.
+  - Build all Layer-1 nodes from a clean state.
+  - Verify expected Layer-1 parallelism/order through Ninja.
+  - Inspect every produced Mach-O artifact with appropriate tooling.
+  - Verify ARM64-only output.
+  - Verify install names.
+  - Verify RPATHs.
+  - Verify exported symbols/visibility.
+  - Verify no unresolved-link surprises.
+  - Run Layer-1 tests.
+  - Compare behavior/output against the known-good legacy build where meaningful.
+  - Record validation evidence.
+  - Close Layer 1 before descending.
+- Layer 2: parallel service libraries
+  - Model t3key ← t3config.
+  - Model its schema-byte generation.
+  - Model its curses/ncurses dependency according to the Layer-0 decision.
+  - Model key database path semantics.
+  - Model required t3keyc/database-generation tasks.
+  - Model relevant t3key utilities/tests.
+  - Model t3highlight ← t3config.
+  - Model PCRE2 dependency and required PCRE2_CODE_UNIT_WIDTH configuration.
+  - Decide long-term fate of PCRE1 compatibility paths.
+  - Model highlight data/runtime-path semantics.
+  - Model highlight schema-byte generation.
+  - Model relevant t3highlight utilities/tests.
+  - Model t3window ← transcript.
+  - Model ncurses and libunistring dependencies.
+  - Preserve the already-implemented semantic mouse-capability behavior.
+  - Represent Darwin capability macros intentionally rather than carrying Linux configuration branches.
+  - Model generated chardata.c according to the Layer-0 regeneration decision.
+  - Model relevant t3window tests.
+  - Build all three Layer-2 branches as one stratum.
+  - Verify Ninja can exploit legitimate parallelism between them.
+  - Inspect all resulting Mach-O dylibs.
+  - Verify ARM64-only output.
+  - Verify install names/RPATHs.
+  - Verify dependency closure.
+  - Run Layer-2 tests.
+  - Validate terminal behavior relevant at this layer.
+  - Record validation evidence.
+  - Close Layer 2 before descending.
+- Layer 3: t3widget UI substrate
+  - Model the complete C++ source set.
+  - Build it under the C++23 project standard.
+  - Resolve any actual C++23 compatibility issues without gratuitous unrelated source churn.
+  - Preserve the existing working colorscheme.cc behavior; avoid broad formatting/rewrite churn while migrating.
+  - Preserve semantic mouse-capability consumption and legacy fallback behavior.
+  - Model dependencies on t3window, transcript, and t3key.
+  - Model PCRE2 and libunistring dependencies.
+  - Resolve -ldl semantics under Darwin.
+  - Decide fate of PCRE1 compatibility code.
+  - Decide fate of Linux GPM support in the Darwin-only distribution corpus/build.
+  - Decide fate of the X11/XCB module in the macOS distribution.
+  - If retained, establish its Darwin module naming/loading/install paths.
+  - If retained, establish how XCB is discovered and packaged.
+  - Replace build-tree X11_MOD_NAME assumptions with the decided runtime/install model.
+  - Preserve intended hidden/default symbol visibility behavior.
+  - Port relevant t3widget tests/static-analysis tasks.
+  - Decide how clang-format and clang-tidy workflows integrate with the Meson-era developer surface.
+  - Build Layer 3.
+  - Verify ARM64 Mach-O output.
+  - Verify dylib identity/RPATH/dependencies.
+  - Run applicable tests.
+  - Validate Kitty/runtime mouse, keyboard, palette, and terminal behavior already known to work.
+  - Record validation evidence.
+  - Close Layer 3 before descending.
+- Layer 4: Tilde application
+  - Model the complete Tilde C++ source target.
+  - Model config.schema → config.bytes.
+  - Model recent_files.schema → recent_files.bytes.
+  - Model generated-source dependencies for option.cc and openfiles.cc.
+  - Model dependency objects for t3widget, t3window, Transcript, t3config, t3highlight, and libunistring.
+  - Resolve Darwin application capability macros currently represented by Linux-only branches.
+  - Decide final application debug/release compile definitions.
+  - Replace build-tree DATADIR semantics with the eventual runtime/install data model.
+  - Integrate the canonical product version into About/version output so <VERSION> is no longer literal.
+  - Preserve the already-validated canonical About text.
+  - Preserve the already-validated canonical CLI version/copyright wording.
+  - Decide executable output naming internally while preserving installed executable name tilde.
+  - Build the application through Meson/Ninja only.
+  - Verify final executable is ARM64-only.
+  - Inspect all LC_LOAD_DYLIB entries.
+  - Inspect all LC_RPATH entries.
+  - Verify no post-link install_name_tool repair is required.
+  - Verify no GNU linker flags.
+  - Verify no stale .libs/legacy Make-tree runtime dependencies.
+  - Run Tilde directly from the Meson build tree.
+  - Revalidate Kitty behavior.
+  - Revalidate other terminal behavior needed by the “cross-terminal compatible” claim.
+  - Revisit the known Apple Terminal exit crash as a separate defect, not silently conflate it with Meson migration.
+  - Compare Meson-built behavior with the known-good legacy-built executable.
+  - Record validation evidence.
+  - Close Layer 4 before descending.
+- Layer 5: tests, install surface, runtime layout, packaging, and release
+  - Inventory every existing testsuite/unit-test target across all constituent repositories.
+  - Decide which tests form the canonical supported test suite.
+  - Port supported tests to Meson test()/appropriate Meson mechanisms.
+  - Define clean meson test expectations.
+  - Decide whether additional integration/runtime tests are required for terminal behavior.
+  - Decide whether architecture/Mach-O/RPATH validation becomes automated tests.
+  - Decide whether source-regeneration tests are separate from ordinary build tests.
+  - Decide final install surface: executable only versus any constituent libraries/headers/utilities/modules that must be installed.
+  - Decide runtime location for Transcript converters/modules/tables.
+  - Decide runtime location for t3key database material.
+  - Decide runtime location for t3highlight data.
+  - Decide runtime location for Tilde schemas/generated data.
+  - Decide runtime location for translations/locales.
+  - Decide runtime location for any retained widget modules.
+  - Replace every remaining build-directory-derived runtime path with install-aware semantics.
+  - Verify staged installs independently of the source/build trees.
+  - Verify a staged installation runs with no environment-variable assistance.
+  - Define uninstall expectations if an uninstall workflow remains desired.
+  - Decide whether a convenience top-level command surface exists beyond standard Meson commands.
+  - Decide whether zsh scripts provide doctor, package, signing, notarization, release, etc.
+  - Decide whether any root Makefile survives merely as a human convenience shim or disappears entirely.
+  - Define developer doctor checks if retained.
+  - Define developer/build information reporting if retained.
+  - Define source-distribution contents.
+  - Solve the Git-submodule/source-release problem explicitly: GitHub-generated source archives do not inherently contain submodule source.
+  - Decide whether canonical source releases vendor constituent sources, use another archive process, use Homebrew resources, or another approach.
+  - Ensure the resulting source artifact can build without depending on mutable branch state.
+  - Verify source-dist regeneration/build from a clean extraction.
+  - Decide canonical real distribution version/tidemark.
+  - Define version propagation to Meson, CLI output, About UI, source archives, DMG, and Homebrew metadata.
+  - Define canonical release-build Meson configuration.
+  - Build release artifact from a clean checkout/source-dist.
+  - Define code-signing scope: executable, dylibs, modules, bundle/container contents as applicable.
+  - Decide hardened-runtime requirements.
+  - Decide entitlements, if any.
+  - Establish Developer ID signing workflow.
+  - Verify signatures recursively.
+  - Define notarization workflow using current Apple tooling.
+  - Define stapling workflow.
+  - Verify Gatekeeper assessment.
+  - Define DMG contents and layout.
+  - Define DMG metadata/presentation.
+  - Include required licensing/attribution materials.
+  - Produce canonical signed/notarized DMG.
+  - Verify DMG on a clean macOS environment/account where practical.
+  - Define GitHub Release artifact set.
+  - Define checksums/signature metadata as appropriate.
+  - Define release automation/CI responsibilities.
+  - Decide what runs locally versus GitHub-hosted automation.
+  - Define development MeansAndMeasures/homebrew-tap formula.
+  - Define development cask.
+  - Test brew install tilde-macos from the tap.
+  - Test brew install --cask tilde-macos from the tap.
+  - Verify formula source build performs no forbidden network access during build.
+  - Verify formula dependencies accurately reflect the finalized Meson build.
+  - Verify bottle readiness for Apple Silicon macOS.
+  - Prepare eventual homebrew/core formula submission.
+  - Prepare eventual official Homebrew cask submission.
+  - Ensure formula and cask resolve to the same authoritative distribution version/tidemark.
+  - Close Layer 5 only after source build and packaged build are independently reproducible from the same release state.
+- Repository/Git work that remains before the first completed tidemark
+  - Preserve the existing eight child-repository commits and exact pinned SHAs.
+  - If statrie is later added, process it explicitly rather than silently altering the existing topology.
+  - Decide whether all current constituent repositories remain submodules after Meson obsoletes makesys as a build dependency.
+  - Inspect parent tilde-macos status before staging anything further.
+  - Resolve the currently staged/generated-looking parent changes individually rather than git add -A.
+  - Specifically review dist/.configcxx.cc.
+  - Specifically review the dist/config.pkg → dist/config.pkg.sh rename.
+  - Specifically review src/.configcxx.cc.
+  - Specifically review the existing src/Makefile modifications in light of Meson replacing the topology migration that had been planned there.
+  - Keep the already-intentional src/main.cc About change.
+  - Keep/review the already-intentional src/option.cc version-output change.
+  - Add/verify ignore rules for Meson/Ninja build products and other generated artifacts.
+  - Decide eventual disposition of the old sibling working clones after the submodule-based parent is fully self-contained.
+  - Decide whether any legacy build outputs/configuration files need repository cleanup.
+  - Add Copyright (C) 2026 Means+Measures to materially modified source files according to the locked attribution policy.
+  - Do not mechanically stamp untouched inherited files.
+  - Preserve all upstream GPL notices and lineage.
+  - Review constituent files already modified for Darwin/libc++/mouse/palette/gettext work and add the Means+Measures line where the policy applies.
+  - Review new Meson/build/release files for appropriate copyright/license headers.
+  - Decide coherent parent commit boundaries for the modernization work.
+  - Commit .gitmodules and pinned submodules at the appropriate parent checkpoint.
+  - Commit Meson migration work in coherent engineering epochs/checkpoints.
+  - Push parent prime after validated commit points.
+  - Ensure parent commit records the exact child SHAs intended for the tidemark.
+  - Create the eventual parent release tag/tidemark only after the corresponding engineering epoch is closed.
+- Engineering Atlas / documentation before the first tidemark closes
+  - Preserve aboutRepo.md as the locked repository doctrine, updating only where later explicit decisions require it.
+  - Create docs/engineering-atlas/tidemarks/<tidemark>/CHANGE-RECORD.md.
+  - Create/update docs/engineering-atlas/current as an actual relative symlink.
+  - Create one semantic ##  entry per meaningful engineering change.
+  - Use the locked ordered fields for every change entry.
+  - Observe the mandatory space after Markdown heading markers.
+  - Use unspaced #tag syntax only for engineering tags.
+  - Document Meson/Ninja migration semantically rather than dumping maintenance churn into the Change Record.
+  - Document ARM64/Darwin/C23/C++23 build-contract changes.
+  - Document generator/toolchain architecture changes.
+  - Document Mach-O/RPATH/install-name modernization.
+  - Document dependency topology changes.
+  - Document terminal capability/mouse modernization.
+  - Document presentation/palette changes where appropriate.
+  - Document gettext/config linkage changes where appropriate.
+  - Document packaging/release architecture once implemented.
+  - Identify impacted corpus at the lowest useful containing level for each change.
+  - Record secondary downstream and unusual impacts.
+  - Record benefits and time/effort cost.
+  - Record validation evidence.
+  - Add useful outside-resource links where they genuinely aided the work.
+  - Produce the complete tidemark-to-tidemark corpus diff.
+  - Link that exhaustive diff at the end of the Change Record.
+  - Add/update the README What’s New projection from the current Change Record.
+  - Keep README entries short and link them into the semantic Change Record rather than duplicating it.
+- Final first-release provenance/quality pass
+  - Confirm canonical product identity everywhere is Tilde for macOS / Means+Measures, using MeansAndMeasures only where + is syntactically unavailable.
+  - Confirm no accidental Means-Measures naming.
+  - Confirm executable remains tilde.
+  - Confirm package/formula name remains tilde-macos.
+  - Confirm canonical About/copyright/attribution block appears correctly where intended.
+  - Confirm upstream GPLv3 licensing remains intact.
+  - Confirm no accidental Linux-support claims remain in the distribution metadata.
+  - Confirm no x86_64 artifacts, slices, assumptions, tooling dependencies, or Rosetta requirements remain in the canonical build/release chain.
+  - Confirm no GNU/ELF linker flags remain in the canonical Darwin build.
+  - Confirm no post-build Mach-O repair is part of the normal release process.
+  - Confirm no local absolute paths leak into installed binaries, generated files, package metadata, or release artifacts.
+  - Confirm source build and DMG release derive from the same authoritative version/tidemark.
+  - Confirm prime and all parent submodule pins represent that exact release state.
+  - Close the engineering epoch, generate the Atlas record/diff, tag it, and only then call the release state done.

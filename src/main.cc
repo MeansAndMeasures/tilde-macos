@@ -35,6 +35,7 @@
 #include "tilde/option.h"
 #include "tilde/option_access.h"
 #include "tilde/string_util.h"
+#include "tilde/version.h"
 
 using namespace t3widget;
 
@@ -234,16 +235,19 @@ main_t::main_t() {
   open_recent_dialog->center_over(this);
 
   about_dialog = t3widget::make_unique<message_dialog_t>(
-      45, std::string("About"), std::initializer_list<string_view>{"Close"});
+      64, std::string("About Tilde for macOS"), std::initializer_list<string_view>{"Close"});
   about_dialog->center_over(this);
-  about_dialog->set_max_text_height(13);
+  about_dialog->set_max_text_height(16);
   about_dialog->set_message(
       // clang-format off
-      "Tilde - The intuitive text editor\n\nVersion <VERSION>\n"
-      "Copyright (c) 2011-2018 G.P. Halkes\n\n"  // @copyright
-      "The Tilde text editor is licensed under the GNU General Public License version 3. "
-      "You should have received a copy of the GNU General Public License along with this program. "
-      "If not, see <http://www.gnu.org/licenses/>.");
+      "Tilde for macOS\n"
+      "Version " TILDE_VERSION "\n\n"
+      "A modernized macOS distribution of the Tilde text editor.\n"
+      "Cross-terminal compatible. M-series optimized.\n\n"
+      "© 2026 Means+Measures\n\n"
+      "Based on the groundbreaking work of G.P. Halkes, creator of Tilde and the T3 libraries.\n"
+      "Original work © G.P. Halkes and respective contributors.\n\n"
+      "Licensed under the GNU General Public License v3.");
   // clang-format on
 
   buffer_options_dialog = make_unique<buffer_options_dialog_t>("Current Buffer");
