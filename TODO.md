@@ -335,3 +335,5 @@
   - Confirm source build and DMG release derive from the same authoritative version/tidemark.
   - Confirm prime and all parent submodule pins represent that exact release state.
   - Close the engineering epoch, generate the Atlas record/diff, tag it, and only then call the release state done.
+- Non-blocking bugfixes
+  - Find with an empty string causes a crash (user-reported; not blocking v1.0.0).
