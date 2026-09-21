@@ -1,0 +1,188 @@
+Setting wrap width: 49
+Setting wrap width: 49
+Setting wrap width: 49
+Setting wrap width: 49
+Setting wrap width: 63
+Setting wrap width: 61
+Setting wrap width: 61
+Setting wrap width: 49
+Setting wrap width: 47
+Setting wrap width: 47
+New codeset: UTF-8
+Got key 111003
+Got key 006F
+Got mouse event: x=111, y=48, button_state=1, modifier_state=0
+Got mouse event: x=111, y=48, button_state=0, modifier_state=0
+Got key 2000006F
+Got key 110007
+Got key 110007
+Got key 110007
+Got key 110007
+Got key 110007
+Got key 11000B
+Got key 0020
+Got key 0020
+Got key 0020
+Got key 0020
+Got key 110007
+Got key 0020
+Got key 0020
+Got key 110007
+Got key 110007
+Got key 0020
+Got key 0020
+Got key 110007
+Got key 110007
+Got key 110004
+Got key 110004
+Got key 0020
+Got key 11000B
+Got key 20000066
+Got key 110006
+Got key 110006
+Got key 110006
+Got key 11000B
+Got key 20000065
+Got key 110005
+Got key 110005
+Got key 110005
+Got key 110005
+Got key 110005
+Got key 110004
+Got key 002F
+Got key 110004
+Got key 110007
+Got key 110007
+Got key 11000B
+Got key 20000074
+Got key 2000002F
+Got key 11000B
+Got key 110007
+Got key 110007
+Got key 110006
+Got key 110006
+Got key 0020
+Got key 2011000B
+Got key 2011000B
+Got key 0009
+Got key 0064
+Got key 11000B
+Got key 0065
+Got key 0064
+Got key 0066
+Got key 0061
+Got key 0064
+Got key 002F
+Got key 003F
+Got key 11000A
+Got key 11000A
+Got key 11000A
+Got key 11000A
+Got key 11000A
+Got key 11000A
+Got key 11000A
+Got key 11000A
+Got key 11000A
+Got key 11000A
+Got key 11000A
+Got key 11000A
+Got key 11000A
+Got key 11000A
+Got key 2000002F
+Got key 2000002F
+Got key 2000002F
+Got key 10000074
+Got key 20000074
+Got key 0009
+Got key 2011000B
+Got key 11000B
+Got key 20000063
+Got key 20000065
+Got key 20000066
+Got key 20000066
+Got key 0066
+Got key 0066
+Got key 110004
+Got key 110007
+Got key 110007
+Got key 110007
+Got key 110007
+Got key 110007
+Got key 110007
+Got key 110007
+Got key 110007
+Got key 11000B
+Setting wrap width: 47
+Setting wrap width: 29
+Setting wrap width: 29
+Got key 110005
+Got key 110004
+Got key 110005
+Got key 2011000B
+Got key 11000B
+Setting wrap width: 49
+Setting wrap width: 49
+Setting wrap width: 49
+Setting wrap width: 49
+Setting wrap width: 63
+Setting wrap width: 61
+Setting wrap width: 61
+Setting wrap width: 49
+Setting wrap width: 47
+Setting wrap width: 47
+New codeset: UTF-8
+Got key 111003
+Got key 006C
+Got key 11000A
+Got key 0009
+Got key 10000066
+set focus 1
+Got key 10000065
+Got key 10000063
+Got key 00E7
+Got key 11000A
+Got key 11000A
+Got key 11000A
+Got key 0063
+Got key 11000A
+Got key 0060
+Got key 11000A
+Got key 11000A
+Got key 0060
+Got key 0060
+Got key 11000A
+Got key 11000A
+Got key 11000A
+Got key 11000A
+Got mouse event: x=80, y=28, button_state=1, modifier_state=0
+Got mouse event: x=80, y=28, button_state=0, modifier_state=0
+Got mouse event: x=79, y=27, button_state=1, modifier_state=0
+set focus 0
+Got mouse event: x=79, y=27, button_state=0, modifier_state=0
+Got mouse event: x=22, y=0, button_state=1, modifier_state=0
+Got mouse event: x=22, y=0, button_state=0, modifier_state=0
+Got mouse event: x=36, y=0, button_state=1, modifier_state=0
+Got mouse event: x=36, y=0, button_state=0, modifier_state=0
+Got mouse event: x=32, y=0, button_state=1, modifier_state=0
+Got mouse event: x=32, y=0, button_state=0, modifier_state=0
+Got mouse event: x=42, y=0, button_state=1, modifier_state=0
+Got mouse event: x=42, y=0, button_state=0, modifier_state=0
+Got mouse event: x=1, y=0, button_state=1, modifier_state=0
+Got mouse event: x=1, y=0, button_state=0, modifier_state=0
+Got mouse event: x=1, y=0, button_state=1, modifier_state=0
+Got mouse event: x=1, y=0, button_state=0, modifier_state=0
+Got mouse event: x=6, y=0, button_state=1, modifier_state=0
+Got mouse event: x=6, y=0, button_state=0, modifier_state=0
+Got mouse event: x=6, y=0, button_state=1, modifier_state=0
+Got mouse event: x=6, y=0, button_state=0, modifier_state=0
+Got mouse event: x=35, y=4, button_state=1, modifier_state=0
+Got mouse event: x=35, y=4, button_state=0, modifier_state=0
+Got mouse event: x=3, y=0, button_state=1, modifier_state=0
+Got mouse event: x=3, y=0, button_state=0, modifier_state=0
+Got mouse event: x=6, y=11, button_state=1, modifier_state=0
+Got mouse event: x=6, y=11, button_state=0, modifier_state=0
+Setting wrap width: 47
+Setting wrap width: 29
+Setting wrap width: 29
+Got mouse event: x=59, y=24, button_state=1, modifier_state=0
+Got mouse event: x=59, y=24, button_state=0, modifier_state=0
