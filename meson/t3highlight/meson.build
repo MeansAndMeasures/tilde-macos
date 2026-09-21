@@ -1,4 +1,8 @@
-t3highlight_include = include_directories('../../deps/t3highlight/src', '.')
+t3highlight_include = include_directories(
+    '../../deps/t3highlight/src',
+    '../../deps/t3shared/src',
+    '.',
+)
 t3highlight_data_dir = meson.project_source_root() / 'deps/t3highlight/src/data'
 if get_option('installed_runtime')
     t3highlight_data_dir = runtime_prefix / highlight_install_data

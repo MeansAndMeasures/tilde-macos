@@ -1,4 +1,4 @@
-t3key_include = include_directories('../../deps/t3key/src', '.')
+t3key_include = include_directories('../../deps/t3key/src', '../../deps/t3shared/src', '.')
 t3key_database_dir = meson.project_source_root() / 'deps/t3key/src/database'
 if get_option('installed_runtime')
     t3key_database_dir = runtime_prefix / key_install_data

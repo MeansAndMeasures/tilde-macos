@@ -18,6 +18,8 @@
 #include <transcript/transcript.h>
 #include <unistring/version.h>
 
+#include "macos_bundle_path.h"
+
 #include "tilde/attributemap.h"
 #include "tilde/log.h"
 #include "tilde/option.h"
@@ -117,12 +119,22 @@ static void read_config(std::unique_ptr<FILE, fclose_deleter> config_file) {
   }
 }
 
+/* Resolves to the Resources/tilde directory inside Tilde.app when running
+   from a bundled install, falling back to the DATADIR baked in at compile
+   time (dev tree / Homebrew install) otherwise. */
+static const char *tilde_data_dir() {
+  static char *resolved = t3_shared_bundle_path(
+      reinterpret_cast<const void *>(&tilde_data_dir), "Resources", "tilde");
+  return resolved != nullptr ? resolved : DATADIR;
+}
+
 static void read_base_config_file() {
   std::unique_ptr<FILE, fclose_deleter> config_file;
+  std::string base_config_path = std::string(tilde_data_dir()) + "/base.config";
 
-  config_file.reset(fopen(DATADIR "/base.config", "r"));
+  config_file.reset(fopen(base_config_path.c_str(), "r"));
   if (config_file == nullptr) {
-    lprintf("Failed to open file: %s %m\n", DATADIR "/base.config");
+    lprintf("Failed to open file: %s %m\n", base_config_path.c_str());
     return;
   }
 

@@ -6,15 +6,15 @@ endif
 transcript_include = include_directories(
     '../../deps/transcript/src',
     '../../deps/transcript/src/pregen',
+    '../../deps/t3shared/src',
 )
 
-transcript_args = [
+transcript_args = (get_option('debug') ? ['-DTRANSCRIPT_DEBUG'] : []) + [
     '-DTRANSCRIPT_BUILD_DSO',
     '-DUSE_ENDIAN',
     '-DHAS_INLINE',
     '-DHAS_NL_LANGINFO',
     '-DHAS_STRDUP',
-    '-DTRANSCRIPT_DEBUG',
     '-DHAS_DLFCN',
     '-DDB_DIRECTORY="@0@"'.format(transcript_runtime_dir),
 ]

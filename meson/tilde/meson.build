@@ -1,4 +1,9 @@
-tilde_include = include_directories('../../src', '../../src/dialogs', '.')
+tilde_include = include_directories(
+    '../../src',
+    '../../src/dialogs',
+    '../../deps/t3shared/src',
+    '.',
+)
 tilde_data_dir = meson.project_source_root() / 'src'
 if get_option('installed_runtime')
     tilde_data_dir = runtime_prefix / tilde_install_data
@@ -46,8 +51,7 @@ tilde_exe = executable(
     tilde_recent_files_schema,
     generated_headers,
     include_directories: [generated_include, tilde_include, unistring_inc],
-    cpp_args: [
-        '-DTILDE_DEBUG',
+    cpp_args: (get_option('debug') ? ['-DTILDE_DEBUG'] : []) + [
         '-DHAS_STRDUP',
         '-DCXX11SWITCH=1',
         '-DTILDE_VERSION="@0@"'.format(meson.project_version()),
