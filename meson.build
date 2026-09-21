@@ -67,7 +67,41 @@ message('C++ compiler: ' + cpp.get_id())
 message('Architecture: ' + host_machine.cpu_family())
 message('Platform: ' + host_machine.system())
 message('Homebrew prefix: ' + brew_prefix)
+runtime_prefix = get_option('prefix')
+runtime_datadir = get_option('datadir')
+runtime_libdir = get_option('libdir')
 
+tilde_install_data = runtime_datadir / 'tilde'
+key_install_data = runtime_datadir / 'libt3key'
+highlight_install_data = runtime_datadir / 'libt3highlight'
+transcript_install_data = runtime_libdir / 'transcript'
+
+install_data(
+    'src/base.config',
+    install_dir: tilde_install_data,
+)
+
+install_subdir(
+    'deps/t3key/src/database',
+    install_dir: key_install_data,
+    strip_directory: true,
+)
+
+install_subdir(
+    'deps/t3highlight/src/data',
+    install_dir: highlight_install_data,
+    strip_directory: true,
+)
+
+install_data(
+    'deps/transcript/src/aliases.txt',
+    install_dir: transcript_install_data,
+)
+
+install_data(
+    'dist/COPYING',
+    install_dir: runtime_datadir / 'licenses/tilde-macos',
+)
 subdir('meson/transcript')
 subdir('meson/t3config')
 subdir('meson/t3key')

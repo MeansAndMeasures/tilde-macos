@@ -1,6 +1,8 @@
 tilde_include = include_directories('../../src', '../../src/dialogs', '.')
 tilde_data_dir = meson.project_source_root() / 'src'
-
+if get_option('installed_runtime')
+    tilde_data_dir = runtime_prefix / tilde_install_data
+endif
 tilde_config_schema = custom_target(
     'tilde-config-schema-bytes',
     input: '../../src/config.schema',
@@ -59,6 +61,7 @@ tilde_exe = executable(
         t3highlight_dep,
         unistring_dep,
     ],
+	install_rpath: runtime_prefix / runtime_libdir,
     install: true,
 )
 

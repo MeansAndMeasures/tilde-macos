@@ -95,6 +95,7 @@ t3widget_lib = shared_library(
         m_dep,
     ],
     gnu_symbol_visibility: 'hidden',
+	install_rpath: '@loader_path',
     install: true,
 )
 

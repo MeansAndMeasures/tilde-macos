@@ -41,6 +41,7 @@ t3window_lib = shared_library(
     ],
     dependencies: [transcript_dep, ncurses_dep, unistring_dep, intl_dep],
     gnu_symbol_visibility: 'hidden',
+	install_rpath: '@loader_path',
     install: true,
 )
 

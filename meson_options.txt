@@ -1,0 +1,6 @@
+option(
+    'installed_runtime',
+    type: 'boolean',
+    value: false,
+    description: 'Resolve runtime resources under the installation prefix',
+)

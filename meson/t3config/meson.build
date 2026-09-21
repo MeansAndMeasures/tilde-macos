@@ -62,6 +62,7 @@ t3config_lib = shared_library(
     ],
     dependencies: [intl_dep, m_dep],
     gnu_symbol_visibility: 'hidden',
+	install_rpath: '@loader_path',
     install: true,
 )
 

@@ -1,6 +1,8 @@
 t3key_include = include_directories('../../deps/t3key/src', '.')
 t3key_database_dir = meson.project_source_root() / 'deps/t3key/src/database'
-
+if get_option('installed_runtime')
+    t3key_database_dir = runtime_prefix / key_install_data
+endif
 key_shared = custom_target(
     'key-shared-source',
     input: '../../deps/t3shared/src/shared.c',
@@ -30,7 +32,8 @@ t3key_lib = shared_library(
     ],
     dependencies: [t3config_dep, ncurses_dep],
     gnu_symbol_visibility: 'hidden',
-    install: true,
+	install_rpath: '@loader_path',
+	install: true,
 )
 
 t3key_dep = declare_dependency(

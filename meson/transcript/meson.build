@@ -1,4 +1,8 @@
 transcript_build_dir = meson.current_build_dir()
+transcript_runtime_dir = transcript_build_dir
+if get_option('installed_runtime')
+    transcript_runtime_dir = runtime_prefix / transcript_install_data
+endif
 transcript_include = include_directories(
     '../../deps/transcript/src',
     '../../deps/transcript/src/pregen',
@@ -12,7 +16,7 @@ transcript_args = [
     '-DHAS_STRDUP',
     '-DTRANSCRIPT_DEBUG',
     '-DHAS_DLFCN',
-    '-DDB_DIRECTORY="@0@"'.format(transcript_build_dir),
+    '-DDB_DIRECTORY="@0@"'.format(transcript_runtime_dir),
 ]
 
 transcript_lib = shared_library(
@@ -32,6 +36,7 @@ transcript_lib = shared_library(
     c_args: transcript_args,
     dependencies: [threads_dep],
     gnu_symbol_visibility: 'hidden',
+	install_rpath: '@loader_path',
     install: true,
 )
 
@@ -51,6 +56,9 @@ ascii_module = shared_module(
     link_with: transcript_lib,
     name_prefix: '',
     name_suffix: 'ltc',
+    install: true,
+    install_dir: transcript_install_data,
+    install_rpath: '@loader_path/..',
 )
 
 unicode_module = shared_module(
@@ -65,6 +73,9 @@ unicode_module = shared_module(
     link_with: transcript_lib,
     name_prefix: '',
     name_suffix: 'ltc',
+    install: true,
+    install_dir: transcript_install_data,
+    install_rpath: '@loader_path/..',
 )
 
 iso2022_module = shared_module(
@@ -75,6 +86,9 @@ iso2022_module = shared_module(
     link_with: transcript_lib,
     name_prefix: '',
     name_suffix: 'ltc',
+    install: true,
+    install_dir: transcript_install_data,
+    install_rpath: '@loader_path/..',
 )
 
 euctw_module = shared_module(
@@ -85,6 +99,9 @@ euctw_module = shared_module(
     link_with: transcript_lib,
     name_prefix: '',
     name_suffix: 'ltc',
+    install: true,
+    install_dir: transcript_install_data,
+    install_rpath: '@loader_path/..',
 )
 
 linkltc = executable(
@@ -113,3 +130,35 @@ transcript_converter_links = custom_target(
     ],
     build_by_default: true,
 )
+converter_aliases = {
+    'ascii': [
+        'iso88591',
+    ],
+    'unicode': [
+        'cesu8', 'gb18030', 'scsu',
+        'utf7', 'utf8',
+        'utf16', 'utf16be', 'utf16le',
+        'utf32', 'utf32be', 'utf32le',
+        'xutf8bom',
+        'xutf16bebom', 'xutf16lebom',
+        'xutf32bebom', 'xutf32lebom',
+    ],
+    'iso2022': [
+        'iso2022cn', 'iso2022cnext',
+        'iso2022jp', 'iso2022jp1', 'iso2022jp2',
+        'iso2022jp3', 'iso2022jp2004', 'iso2022kr',
+    ],
+    'euctw': [
+        'euctw1992', 'euctw2004',
+    ],
+}
+
+foreach module_name, aliases : converter_aliases
+    foreach alias : aliases
+        install_symlink(
+            alias + '.ltc',
+            pointing_to: module_name + '.ltc',
+            install_dir: transcript_install_data,
+        )
+    endforeach
+endforeach

@@ -1,6 +1,8 @@
 t3highlight_include = include_directories('../../deps/t3highlight/src', '.')
 t3highlight_data_dir = meson.project_source_root() / 'deps/t3highlight/src/data'
-
+if get_option('installed_runtime')
+    t3highlight_data_dir = runtime_prefix / highlight_install_data
+endif
 highlight_shared = custom_target(
     'highlight-shared-source',
     input: '../../deps/t3shared/src/shared.c',
@@ -54,6 +56,7 @@ t3highlight_lib = shared_library(
     ],
     dependencies: [t3config_dep, pcre2_dep],
     gnu_symbol_visibility: 'hidden',
+	install_rpath: '@loader_path',
     install: true,
 )
 
