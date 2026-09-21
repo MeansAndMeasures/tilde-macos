@@ -65,6 +65,11 @@ Full rationale for all of the above: `/Users/bjl/.claude/plans/dapper-juggling-n
 
 ## Workstream B — Packaging-time library relocation script
 
+- [x] Spec written: `packaging/embed-frameworks.spec.md` — exact `otool`
+      findings (which of the 3 absolute Homebrew leaf libs each dylib
+      references, every current `LC_RPATH` entry per file, the correct
+      per-location replacement rpath) and the exact procedure. The script
+      itself is still to be hand-written from that spec.
 - [ ] `packaging/embed-frameworks.sh`: copy component dylibs + `transcript/*.ltc`
       modules from the Meson install tree into `Contents/Frameworks`.
 - [ ] Resolve and copy the 3 Homebrew leaf deps (`libunistring`, `libintl`,
