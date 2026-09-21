@@ -26,3 +26,6 @@
 src/.clang-tidy-opts
 /tilde-*.tar.bz2
 unittests/copy_file_test
+
+# Xcode build products/indexes; regenerated locally, never a source of truth.
+/DerivedData/
