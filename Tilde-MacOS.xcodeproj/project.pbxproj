@@ -1380,12 +1380,14 @@
 		0C57F6E63061AD2900C72E96 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		0C57F6E73061AD2900C72E96 /* setup_copy_file_test.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = setup_copy_file_test.sh; sourceTree = "<group>"; };
 		0C57F6E83061AD2900C72E96 /* src */ = {isa = PBXFileReference; lastKnownFileType = text; path = src; sourceTree = "<group>"; };
+		0C57F6EC3061B5E900C72E96 /* meson_options.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = meson_options.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		0C57EA283061ABFF00C72E96 = {
 			isa = PBXGroup;
 			children = (
+				0C57F6EC3061B5E900C72E96 /* meson_options.txt */,
 				0C57F0813061AD2900C72E96 /* aboutRepo.md */,
 				0C57F0823061AD2900C72E96 /* al */,
 				0C57F0833061AD2900C72E96 /* all */,

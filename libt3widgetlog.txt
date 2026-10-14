@@ -186,3 +186,925 @@ Setting wrap width: 29
 Setting wrap width: 29
 Got mouse event: x=59, y=24, button_state=1, modifier_state=0
 Got mouse event: x=59, y=24, button_state=0, modifier_state=0
+Setting wrap width: 49
+Setting wrap width: 49
+Setting wrap width: 49
+Setting wrap width: 49
+Setting wrap width: 63
+Setting wrap width: 61
+Setting wrap width: 61
+Setting wrap width: 49
+Setting wrap width: 47
+Setting wrap width: 47
+New codeset: UTF-8
+Got key 111003
+Got key 20000066
+Got key 0078
+Setting wrap width: 49
+Setting wrap width: 49
+Setting wrap width: 49
+Setting wrap width: 49
+Setting wrap width: 63
+Setting wrap width: 61
+Setting wrap width: 61
+Setting wrap width: 49
+Setting wrap width: 47
+Setting wrap width: 47
+New codeset: UTF-8
+Got key 111003
+Got key 2000006F
+Got key 110004
+Got key 110004
+Got key 110004
+Got key 110004
+Got key 110004
+Got key 110005
+Got key 110004
+Got key 110007
+Got key 110007
+Got key 110006
+Got key 11000B
+set focus 1
+Got key 005C
+Got key 11000A
+Got key 110007
+Got mouse event: x=5, y=65, button_state=1, modifier_state=0
+set focus 0
+Got mouse event: x=5, y=65, button_state=0, modifier_state=0
+Got mouse event: x=6, y=65, button_state=1, modifier_state=0
+Got mouse event: x=6, y=65, button_state=0, modifier_state=0
+Got mouse event: x=5, y=65, button_state=1, modifier_state=0
+Got mouse event: x=5, y=65, button_state=0, modifier_state=0
+Got mouse event: x=128, y=65, button_state=1, modifier_state=0
+Got mouse event: x=128, y=65, button_state=0, modifier_state=0
+Got mouse event: x=21, y=5, button_state=1, modifier_state=0
+Got mouse event: x=21, y=5, button_state=0, modifier_state=0
+Got mouse event: x=21, y=5, button_state=1, modifier_state=0
+Got mouse event: x=21, y=5, button_state=0, modifier_state=0
+Got mouse event: x=21, y=5, button_state=1, modifier_state=0
+Got mouse event: x=21, y=5, button_state=0, modifier_state=0
+Got mouse event: x=12, y=31, button_state=1, modifier_state=0
+Got mouse event: x=12, y=31, button_state=0, modifier_state=0
+Got mouse event: x=12, y=31, button_state=1, modifier_state=0
+Got mouse event: x=12, y=31, button_state=0, modifier_state=0
+Got mouse event: x=4, y=0, button_state=1, modifier_state=0
+Got mouse event: x=4, y=0, button_state=0, modifier_state=0
+Got mouse event: x=5, y=5, button_state=1, modifier_state=0
+Got mouse event: x=5, y=5, button_state=0, modifier_state=0
+Got mouse event: x=3, y=0, button_state=1, modifier_state=0
+Got mouse event: x=3, y=0, button_state=0, modifier_state=0
+Got mouse event: x=4, y=3, button_state=1, modifier_state=0
+Got mouse event: x=4, y=3, button_state=0, modifier_state=0
+set focus 1
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+set focus 0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=16, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=18, y=18, button_state=8, modifier_state=0
+Got mouse event: x=9, y=5, button_state=1, modifier_state=0
+Got mouse event: x=9, y=5, button_state=0, modifier_state=0
+Got mouse event: x=9, y=5, button_state=1, modifier_state=0
+Got mouse event: x=9, y=5, button_state=0, modifier_state=0
+Got mouse event: x=9, y=5, button_state=1, modifier_state=0
+Got mouse event: x=9, y=5, button_state=0, modifier_state=0
+Got mouse event: x=9, y=5, button_state=1, modifier_state=0
+Got mouse event: x=9, y=5, button_state=0, modifier_state=0
+Got mouse event: x=9, y=5, button_state=1, modifier_state=0
+Got mouse event: x=9, y=5, button_state=0, modifier_state=0
+Got mouse event: x=9, y=5, button_state=1, modifier_state=0
+Got mouse event: x=9, y=5, button_state=0, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=8, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got mouse event: x=46, y=55, button_state=16, modifier_state=0
+Got key 110007
+Got key 110005
+Got key 110005
+Got key 110005
+Got key 110005
+Got key 110005
+Got key 110005
+Got key 110004
+Got key 110007
+Got mouse event: x=52, y=7, button_state=1, modifier_state=0
+Got mouse event: x=52, y=7, button_state=0, modifier_state=0
+Got mouse event: x=52, y=7, button_state=1, modifier_state=0
+Got mouse event: x=52, y=7, button_state=0, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got key 110006
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got mouse event: x=52, y=7, button_state=8, modifier_state=0
+Got key 110006
+Got key 110006
+Got key 110007
+Got key 110007
+Got key 110007
+Got key 110007
+Got mouse event: x=32, y=0, button_state=1, modifier_state=0
+Got mouse event: x=32, y=0, button_state=0, modifier_state=0
+Got mouse event: x=34, y=2, button_state=1, modifier_state=0
+Got mouse event: x=34, y=2, button_state=0, modifier_state=0
+Got mouse event: x=61, y=6, button_state=1, modifier_state=0
+Got mouse event: x=61, y=6, button_state=0, modifier_state=0
+Got mouse event: x=60, y=8, button_state=1, modifier_state=0
+Got mouse event: x=60, y=8, button_state=0, modifier_state=0
+Got mouse event: x=60, y=8, button_state=1, modifier_state=0
+Got mouse event: x=60, y=8, button_state=0, modifier_state=0
+Got mouse event: x=2, y=0, button_state=1, modifier_state=0
+Got mouse event: x=2, y=0, button_state=0, modifier_state=0
+Got mouse event: x=7, y=9, button_state=1, modifier_state=0
+Got mouse event: x=7, y=9, button_state=0, modifier_state=0
+Got mouse event: x=3, y=0, button_state=1, modifier_state=0
+Got mouse event: x=3, y=0, button_state=0, modifier_state=0
+Got mouse event: x=4, y=3, button_state=1, modifier_state=0
+Got mouse event: x=4, y=3, button_state=0, modifier_state=0
+set focus 1
+Got mouse event: x=101, y=49, button_state=16, modifier_state=0
+set focus 0
+Got mouse event: x=101, y=49, button_state=16, modifier_state=0
+Got mouse event: x=101, y=49, button_state=16, modifier_state=0
+Got mouse event: x=101, y=49, button_state=16, modifier_state=0
+Got mouse event: x=101, y=49, button_state=16, modifier_state=0
+Got mouse event: x=101, y=49, button_state=16, modifier_state=0
+Got mouse event: x=101, y=49, button_state=16, modifier_state=0
+Got mouse event: x=101, y=49, button_state=16, modifier_state=0
+Got mouse event: x=118, y=64, button_state=1, modifier_state=0
+Got mouse event: x=117, y=64, button_state=1, modifier_state=0
+Got mouse event: x=116, y=64, button_state=1, modifier_state=0
+Got mouse event: x=115, y=64, button_state=1, modifier_state=0
+Got mouse event: x=114, y=64, button_state=1, modifier_state=0
+Got mouse event: x=113, y=64, button_state=1, modifier_state=0
+Got mouse event: x=112, y=64, button_state=1, modifier_state=0
+Got mouse event: x=111, y=64, button_state=1, modifier_state=0
+Got mouse event: x=110, y=64, button_state=1, modifier_state=0
+Got mouse event: x=109, y=64, button_state=1, modifier_state=0
+Got mouse event: x=108, y=64, button_state=1, modifier_state=0
+Got mouse event: x=107, y=64, button_state=1, modifier_state=0
+Got mouse event: x=106, y=64, button_state=1, modifier_state=0
+Got mouse event: x=105, y=64, button_state=1, modifier_state=0
+Got mouse event: x=104, y=64, button_state=1, modifier_state=0
+Got mouse event: x=103, y=64, button_state=1, modifier_state=0
+Got mouse event: x=102, y=64, button_state=1, modifier_state=0
+Got mouse event: x=101, y=64, button_state=1, modifier_state=0
+Got mouse event: x=100, y=64, button_state=1, modifier_state=0
+Got mouse event: x=99, y=64, button_state=1, modifier_state=0
+Got mouse event: x=99, y=63, button_state=1, modifier_state=0
+Got mouse event: x=98, y=63, button_state=1, modifier_state=0
+Got mouse event: x=97, y=63, button_state=1, modifier_state=0
+Got mouse event: x=96, y=63, button_state=1, modifier_state=0
+Got mouse event: x=95, y=63, button_state=1, modifier_state=0
+Got mouse event: x=94, y=63, button_state=1, modifier_state=0
+Got mouse event: x=93, y=63, button_state=1, modifier_state=0
+Got mouse event: x=92, y=63, button_state=1, modifier_state=0
+Got mouse event: x=91, y=63, button_state=1, modifier_state=0
+Got mouse event: x=90, y=63, button_state=1, modifier_state=0
+Got mouse event: x=89, y=63, button_state=1, modifier_state=0
+Got mouse event: x=88, y=63, button_state=1, modifier_state=0
+Got mouse event: x=87, y=63, button_state=1, modifier_state=0
+Got mouse event: x=86, y=63, button_state=1, modifier_state=0
+Got mouse event: x=85, y=63, button_state=1, modifier_state=0
+Got mouse event: x=84, y=63, button_state=1, modifier_state=0
+Got mouse event: x=83, y=63, button_state=1, modifier_state=0
+Got mouse event: x=82, y=63, button_state=1, modifier_state=0
+Got mouse event: x=81, y=63, button_state=1, modifier_state=0
+Got mouse event: x=80, y=63, button_state=1, modifier_state=0
+Got mouse event: x=79, y=63, button_state=1, modifier_state=0
+Got mouse event: x=78, y=63, button_state=1, modifier_state=0
+Got mouse event: x=77, y=63, button_state=1, modifier_state=0
+Got mouse event: x=76, y=63, button_state=1, modifier_state=0
+Got mouse event: x=75, y=63, button_state=1, modifier_state=0
+Got mouse event: x=74, y=63, button_state=1, modifier_state=0
+Got mouse event: x=73, y=63, button_state=1, modifier_state=0
+Got mouse event: x=72, y=64, button_state=1, modifier_state=0
+Got mouse event: x=71, y=64, button_state=1, modifier_state=0
+Got mouse event: x=70, y=64, button_state=1, modifier_state=0
+Got mouse event: x=69, y=64, button_state=1, modifier_state=0
+Got mouse event: x=68, y=64, button_state=1, modifier_state=0
+Got mouse event: x=68, y=63, button_state=1, modifier_state=0
+Got mouse event: x=67, y=63, button_state=1, modifier_state=0
+Got mouse event: x=67, y=63, button_state=0, modifier_state=0
+Got key 110005
+Got key 110005
+Got key 110005
+Got key 110005
+Got key 110005
+Got key 110005
+Got key 110005
+Got key 110004
+Got key 110004
+Got key 110004
+Got key 110004
+Got key 110005
+Got key 110005
+Got key 110005
+Got mouse event: x=94, y=38, button_state=1, modifier_state=0
+Got mouse event: x=94, y=38, button_state=0, modifier_state=0
+Got mouse event: x=94, y=38, button_state=1, modifier_state=0
+Got mouse event: x=94, y=38, button_state=0, modifier_state=0
+Got mouse event: x=94, y=38, button_state=1, modifier_state=0
+Got mouse event: x=94, y=38, button_state=0, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=46, y=20, button_state=16, modifier_state=0
+Got mouse event: x=40, y=1, button_state=1, modifier_state=0
+Got mouse event: x=40, y=1, button_state=0, modifier_state=0
+Got mouse event: x=40, y=0, button_state=1, modifier_state=0
+Got mouse event: x=40, y=0, button_state=0, modifier_state=0
+Got mouse event: x=32, y=0, button_state=1, modifier_state=0
+Got mouse event: x=32, y=0, button_state=0, modifier_state=0
+Got mouse event: x=37, y=2, button_state=1, modifier_state=0
+Got mouse event: x=37, y=2, button_state=0, modifier_state=0
+Got mouse event: x=60, y=8, button_state=1, modifier_state=0
+Got mouse event: x=60, y=8, button_state=0, modifier_state=0
+Got mouse event: x=60, y=8, button_state=1, modifier_state=0
+Got mouse event: x=60, y=8, button_state=0, modifier_state=0
+Got mouse event: x=60, y=8, button_state=1, modifier_state=0
+Got mouse event: x=60, y=8, button_state=0, modifier_state=0
+Got mouse event: x=3, y=0, button_state=1, modifier_state=0
+Got mouse event: x=3, y=0, button_state=0, modifier_state=0
+Got mouse event: x=4, y=11, button_state=1, modifier_state=0
+Got mouse event: x=4, y=11, button_state=0, modifier_state=0
+Setting wrap width: 49
+Setting wrap width: 49
+Setting wrap width: 49
+Setting wrap width: 49
+Setting wrap width: 63
+Setting wrap width: 61
+Setting wrap width: 61
+Setting wrap width: 49
+Setting wrap width: 47
+Setting wrap width: 47
+New codeset: UTF-8
+Got key 111003
+Got key 10000066
+set focus 1
+Got mouse event: x=78, y=39, button_state=1, modifier_state=0
+Got mouse event: x=78, y=39, button_state=0, modifier_state=0
+Got mouse event: x=77, y=38, button_state=1, modifier_state=0
+set focus 0
+Got mouse event: x=77, y=38, button_state=0, modifier_state=0
