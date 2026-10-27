@@ -74,12 +74,11 @@ t3widget_lib = shared_library(
     widget_shared,
     generated_headers,
     include_directories: [generated_include, t3widget_include, unistring_inc],
-    cpp_args: [
+cpp_args: (get_option('debug') ? ['-D_T3_WIDGET_DEBUG'] : []) + [
         '-DT3_WIDGET_BUILD_DSO',
         '-DT3_DONT_CHECK_VERSION',
         '-D__STDC_LIMIT_MACROS',
         '-D__STDC_CONSTANT_MACROS',
-        '-D_T3_WIDGET_DEBUG',
         '-D_T3_WIDGET_INTERNAL',
         '-DHAS_STRDUP',
         '-DHAS_DLFCN',

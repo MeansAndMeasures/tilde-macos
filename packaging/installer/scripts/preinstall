@@ -1,0 +1,12 @@
+#!/bin/sh
+set -eu
+volume=${3:-/}
+command_path="${volume%/}/usr/local/bin/tilde"
+expected=/Applications/Tilde.app/Contents/Helpers/tilde
+if [ -e "$command_path" ] || [ -L "$command_path" ]; then
+    if [ ! -L "$command_path" ] || [ "$(/usr/bin/readlink "$command_path")" != "$expected" ]; then
+        echo "Tilde: refusing to replace the existing $command_path. Move it aside before installing." >&2
+        exit 1
+    fi
+fi
+exit 0

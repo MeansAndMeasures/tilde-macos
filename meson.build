@@ -1,7 +1,7 @@
 project(
   'tilde-macos',
   ['c', 'cpp'],
-  version : '0.1.0',
+  version : '1.0.0',
   meson_version : '>=1.3.0',
   default_options : ['c_std=c23', 'cpp_std=c++23', 'warning_level=2', 'buildtype=debugoptimized']
 )
