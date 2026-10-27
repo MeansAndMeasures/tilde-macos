@@ -1,3 +1,20 @@
+# Tilde engineering reference
+
+This detailed historical engineering plan is a reference, not a competing master
+work list. Select work and record status in `/Users/bjl/MeansAndMeasures/TODO.md`.
+Reconcile each entry with current code before treating it as outstanding.
+
+As of 2026-10-27, a local 1.0.0 ARM64 app and unsigned installer exist; the app
+requires macOS 27.0. Current artifact checks and remaining verification boundaries
+are recorded in [MACOS-APP-ROADMAP.md](MACOS-APP-ROADMAP.md). Some questions below
+describe earlier build policy goals, rather than absent functionality. In
+particular, current packaging rewrites Mach-O load commands, whereas the plan
+below proposes link-time correctness; that difference remains a policy decision.
+Final certificate signing belongs to Brian; instructions are in
+[packaging/installer/SIGNING.md](packaging/installer/SIGNING.md).
+
+## Historical layer plan
+
 - Layer 0: finish and close the build foundation
   - Decide the canonical minimum supported macOS/deployment target.
   - Decide how the ARM64-only requirement is enforced beyond Meson’s observed aarch64 host detection.
@@ -81,7 +98,7 @@
   - Decide project-wide Meson option structure, if any.
   - Decide whether a meson_options.txt/meson.options file is warranted and what belongs there.
   - Decide which configuration belongs in root meson.build versus other Meson files.
-  - Decide whether the current provisional project version 0.1.0 remains appropriate or should not be established until the real distribution version/tidemark is chosen.
+  - Use the selected distribution version 1.0.0 across the editor, app, and installer.
   - Decide how Meson receives and propagates the eventual canonical distribution version.
   - Perform a clean Layer-0 configuration from a fresh build directory after all Layer-0 decisions are implemented.
   - Inspect resulting Meson configuration.
